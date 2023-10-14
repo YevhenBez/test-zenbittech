@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test-zenbittech/static/css/main.7acaea2f.css",
-    "main.js": "/test-zenbittech/static/js/main.b9068471.js",
-    "static/js/481.53b0e676.chunk.js": "/test-zenbittech/static/js/481.53b0e676.chunk.js",
+    "main.js": "/test-zenbittech/static/js/main.c631a316.js",
+    "static/js/674.53bbda26.chunk.js": "/test-zenbittech/static/js/674.53bbda26.chunk.js",
     "index.html": "/test-zenbittech/index.html",
     "main.7acaea2f.css.map": "/test-zenbittech/static/css/main.7acaea2f.css.map",
-    "main.b9068471.js.map": "/test-zenbittech/static/js/main.b9068471.js.map",
-    "481.53b0e676.chunk.js.map": "/test-zenbittech/static/js/481.53b0e676.chunk.js.map"
+    "main.c631a316.js.map": "/test-zenbittech/static/js/main.c631a316.js.map",
+    "674.53bbda26.chunk.js.map": "/test-zenbittech/static/js/674.53bbda26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.b9068471.js"
+    "static/js/main.c631a316.js"
   ]
 }
