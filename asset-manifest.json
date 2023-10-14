@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/test-zenbittech/static/css/main.7acaea2f.css",
-    "main.js": "/test-zenbittech/static/js/main.07d3183d.js",
+    "main.js": "/test-zenbittech/static/js/main.559c122c.js",
     "index.html": "/test-zenbittech/index.html",
     "main.7acaea2f.css.map": "/test-zenbittech/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/test-zenbittech/static/js/main.07d3183d.js.map"
+    "main.559c122c.js.map": "/test-zenbittech/static/js/main.559c122c.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.559c122c.js"
   ]
 }
