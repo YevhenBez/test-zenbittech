@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { lazy } from 'react';
 import Layout from '../components/layout';
-// const Home = lazy(() => import('../pages/home'));
+const Home = lazy(() => import('../pages/home'));
 const Catalog = lazy(() => import('../pages/catalog'));
 
 export const App = () => {
@@ -9,6 +9,7 @@ export const App = () => {
     <div    >
       <Routes>
         <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path="catalog" element={<Catalog />} />
         </Route>
       </Routes>
