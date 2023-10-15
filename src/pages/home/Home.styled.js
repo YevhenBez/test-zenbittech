@@ -3,9 +3,10 @@ import img from "../../components/images/image 60.jpg"
 
 export const StyledSection = styled.section`
   border: 1px solid #000;
-    background-image: url(${img});
+    background-image: url('${img}');
     width: 100%;
     height: 100%;
+    background-size: cover;
 `;
 
 export const StyledDiv  = styled.div`
@@ -18,7 +19,8 @@ export const StyledDiv  = styled.div`
 export const StyledHeroTitle = styled.h1`
     margin-top: 297px;
     margin-bottom: 10px;
-    color: blue;
+    color: #FFFFFF;
+;
 
     font-weight: 700;
     font-size: 64px;
@@ -30,7 +32,8 @@ export const StyledHeroTitle = styled.h1`
 
 export const StyledHeroText = styled.p`
     font-family: Lato;
-    color: red;
+    color: #FFFFFF;
+;
 
     font-weight: 400;
     font-size: 24px;
@@ -45,7 +48,7 @@ export const StyledHeroText = styled.p`
 
 export const StyledHeroButton = styled.button`
     font-family: Merriweather;
-    color: red;
+    color: #FFFFFF;
 
     font-weight: 700;
     font-size: 20px;
