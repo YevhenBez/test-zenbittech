@@ -12,7 +12,6 @@ export const StyledUl = styled.ul`
 export const StyledNavLink = styled(NavLink)`
     cursor: pointer;
     display: inline-block;
-    padding: 24px 20px 22px 80px;
 
     text-decoration: none;
     font-weight: 400;

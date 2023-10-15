@@ -1,13 +1,13 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import Navigation from '../navigation';
+import AppBar from '../appBar';
 
 
 const Layout = () => {
   return (
     <>
       <header >
-        <Navigation />
+        <AppBar />
       </header>
       <Suspense>
         <Outlet />
