@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyledRegisterFormImg, StyledRegisterFormDiv, StyledRegisterForm, StyledRegisterFormLabel, StyledRegisterDiv } from './RegisterForm.styled';
+import { StyledRegisterFormImg, StyledRegisterFormDiv, StyledRegisterForm, StyledRegisterFormLabel, StyledRegisterDiv, StyledRegisterFormInput, StyledRegisterFormButton } from './RegisterForm.styled';
 import  rectangle  from '../../components/images/Rectangle 291.jpg';
 
 
@@ -31,7 +31,7 @@ const RegisterForm = () => {
     
           <StyledRegisterForm >
             <StyledRegisterFormLabel  >Name
-              <input
+              <StyledRegisterFormInput
                 label="Name"
                 placeholder="Please enter your name"
                 type="text"
@@ -42,7 +42,7 @@ const RegisterForm = () => {
             </StyledRegisterFormLabel>
     
             <StyledRegisterFormLabel  >Email
-              <input
+              <StyledRegisterFormInput
                 label="Email"
                 placeholder="Email"
                 type="email"
@@ -53,7 +53,7 @@ const RegisterForm = () => {
             </StyledRegisterFormLabel>
     
             <StyledRegisterFormLabel  >Password
-              <input
+              <StyledRegisterFormInput
                 label="Password"
                 placeholder="Password"
                 type="password"
@@ -62,7 +62,7 @@ const RegisterForm = () => {
                 onChange={handleChange}
               />
             </StyledRegisterFormLabel>
-            <button type="button">Sign Up</button>
+            <StyledRegisterFormButton type="button">Sign Up</StyledRegisterFormButton>
             <p>Already registered? Log In</p>
           </StyledRegisterForm>
       </StyledRegisterDiv>
