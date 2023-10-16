@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/test-zenbittech/static/css/main.7acaea2f.css",
-    "main.js": "/test-zenbittech/static/js/main.72ec32ee.js",
+    "main.js": "/test-zenbittech/static/js/main.a602171f.js",
     "static/js/160.902df334.chunk.js": "/test-zenbittech/static/js/160.902df334.chunk.js",
     "static/js/674.53bbda26.chunk.js": "/test-zenbittech/static/js/674.53bbda26.chunk.js",
     "static/media/image 60.jpg": "/test-zenbittech/static/media/image 60.093c8ac693d5c6940849.jpg",
     "index.html": "/test-zenbittech/index.html",
     "main.7acaea2f.css.map": "/test-zenbittech/static/css/main.7acaea2f.css.map",
-    "main.72ec32ee.js.map": "/test-zenbittech/static/js/main.72ec32ee.js.map",
+    "main.a602171f.js.map": "/test-zenbittech/static/js/main.a602171f.js.map",
     "160.902df334.chunk.js.map": "/test-zenbittech/static/js/160.902df334.chunk.js.map",
     "674.53bbda26.chunk.js.map": "/test-zenbittech/static/js/674.53bbda26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.72ec32ee.js"
+    "static/js/main.a602171f.js"
   ]
 }
