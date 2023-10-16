@@ -3,12 +3,12 @@ import { StyledAuthMenuNavLink, StyledAuthMenuSignUp, StyledAuthMenuLogIn, Style
 const AuthMenu = () => {
   return (
     <StyledAuthMenuDiv>
-          <StyledAuthMenuNavLink to="/register">
+          <StyledAuthMenuNavLink to="/login">
               <StyledAuthMenuLogIn type="button">Log In</StyledAuthMenuLogIn>
         
       </StyledAuthMenuNavLink>
 
-          <StyledAuthMenuNavLink to="/login">
+          <StyledAuthMenuNavLink to="/register">
               <StyledAuthMenuSignUp type="button">Sign Up</StyledAuthMenuSignUp>
         
       </StyledAuthMenuNavLink>

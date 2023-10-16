@@ -3,6 +3,7 @@ import { lazy } from 'react';
 import Layout from '../components/layout';
 const Home = lazy(() => import('../pages/home'));
 const Catalog = lazy(() => import('../pages/catalog'));
+const RegisterForm = lazy(() => import('../pages/registerForm'));
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="/register" element={<RegisterForm />} />
           <Route path="catalog" element={<Catalog />} />
         </Route>
       </Routes>
